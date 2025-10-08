@@ -29,8 +29,56 @@ Through this project, I learned about:
 
 ## 🧩 Project Setup
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 ```bash
 
+git clone https://github.com/Bhairab-Nath/Django_Employee_Directory_Project.git
 
 ```
+
+### 2. Create Virtual Environment & Activate
+```bash
+
+python -m venv env
+env\Scripts\activate        # For Windows
+# or
+source env/bin/activate     # For Mac/Linux
+
+```
+
+### 3. Install Dependencies
+```bash
+
+pip install -r requirements.txt
+
+```
+### 4. Create media Folder (for uploaded files)
+- Create a media folder in root directory-
+ used to save media uploaded by user. 
+
+### 5. Apply Migrations
+```bash
+
+python manage.py makemigrations
+python manage.py migrate
+
+```
+
+### 6. Create Superuser (for Admin Panel)
+```bash
+
+python manage.py createsuperuser
+
+```
+
+### 7.Run Server
+```bash
+
+python manage.py runserver
+
+```
+
+### 8. Access the App
+
+🌐 Open: http://127.0.0.1:8000/
+🔑 Admin Panel: http://127.0.0.1:8000/admin/
