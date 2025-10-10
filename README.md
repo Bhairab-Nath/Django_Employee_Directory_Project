@@ -40,7 +40,7 @@ git clone https://github.com/Bhairab-Nath/Django_Employee_Directory_Project.git
 ```bash
 
 python -m venv env
-source env/Scripts/activate        # For Windows
+source env/Scripts/activate        # For Windows using Git bash
 # or
 source env/bin/activate     # For Mac/Linux
 
